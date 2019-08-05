@@ -1,0 +1,7 @@
+.l-home {
+    transition: opacity .025s;
+    transition-timing-function: cubic-bezier(0.71,.25,1,.72);
+    margin-top: 8rem;
+
+    @import "../components/specialist-corners";
+}

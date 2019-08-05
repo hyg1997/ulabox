@@ -1,0 +1,52 @@
+.c-search-bar {
+  padding: 12px 8px;
+  background-color: $bg-primary;
+
+  .search-bar {
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: .125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-negative: 2;
+    flex-shrink: 2;
+    height: 2.5rem;
+    padding: 0 .5rem;
+
+    &__icon {
+      opacity: .5;
+      background-image: url("https://www.ulabox.com/img/icons/src/md_search_black.svg");
+      width: 1.5rem;
+      height: 1.5rem;
+      display: block;
+    }
+
+    &__input {
+      line-height: 1.5rem;
+      display: inline-block;
+      border: 0;
+      transition: none!important;
+      margin: .5rem 0;
+      background-color: #fff;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      font-size: 1rem;
+      padding: .35em .5em;
+      -webkit-user-modify: read-write-plaintext-only;
+      -webkit-box-direction: normal;
+      border-radius: .125rem;
+      font-weight: 400;
+      box-sizing: border-box!important;
+      font: inherit;
+    }
+  }
+}

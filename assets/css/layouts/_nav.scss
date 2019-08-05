@@ -1,0 +1,10 @@
+.l-nav {
+  top: 0;
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 100%;
+  z-index: 50;
+
+  @import "../components/search-bar";
+}

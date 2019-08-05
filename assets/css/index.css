@@ -1,0 +1,179 @@
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  display: block;
+  width: auto;
+  text-rendering: optimizeLegibility;
+}
+
+html body {
+  background-color: #fff;
+  color: #555;
+  margin: 0;
+  display: block;
+}
+
+html nav {
+  display: block;
+}
+
+*,
+:after,
+:before {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.l-nav {
+  top: 0;
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 100%;
+  z-index: 50;
+}
+
+.l-nav .c-search-bar {
+  padding: 12px 8px;
+  background-color: #d34069;
+}
+
+.l-nav .c-search-bar .search-bar {
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: .125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-negative: 2;
+  flex-shrink: 2;
+  height: 2.5rem;
+  padding: 0 .5rem;
+}
+
+.l-nav .c-search-bar .search-bar__icon {
+  opacity: .5;
+  background-image: url("https://www.ulabox.com/img/icons/src/md_search_black.svg");
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+.l-nav .c-search-bar .search-bar__input {
+  line-height: 1.5rem;
+  display: inline-block;
+  border: 0;
+  -webkit-transition: none !important;
+  transition: none !important;
+  margin: .5rem 0;
+  background-color: #fff;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 1rem;
+  padding: .35em .5em;
+  -webkit-user-modify: read-write-plaintext-only;
+  -webkit-box-direction: normal;
+  border-radius: .125rem;
+  font-weight: 400;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  font: inherit;
+}
+
+.l-home {
+  -webkit-transition: opacity .025s;
+  transition: opacity .025s;
+  -webkit-transition-timing-function: cubic-bezier(0.71, 0.25, 1, 0.72);
+          transition-timing-function: cubic-bezier(0.71, 0.25, 1, 0.72);
+  margin-top: 8rem;
+}
+
+.l-home .c-specialist-corners {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.l-home .c-specialist-corners .specialist-corners {
+  padding-top: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+.l-home .c-specialist-corners .specialist-corners .c-specialty {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  max-width: 25%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.l-home .c-specialist-corners .specialist-corners .c-specialty .specialty {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  background: 0 0;
+}
+
+.l-home .c-specialist-corners .specialist-corners .c-specialty .specialty__icon, .l-home .c-specialist-corners .specialist-corners .c-specialty .specialty__name {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.l-home .c-specialist-corners .specialist-corners .c-specialty .specialty__icon img, .l-home .c-specialist-corners .specialist-corners .c-specialty .specialty__name img {
+  width: 4rem;
+  max-width: 100%;
+  border: 0;
+}
+
+.l-home .c-specialist-corners .specialist-corners .c-specialty .specialty__icon .title, .l-home .c-specialist-corners .specialist-corners .c-specialty .specialty__name .title {
+  padding-bottom: .5rem;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=index.css.map */
